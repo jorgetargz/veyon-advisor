@@ -9,7 +9,9 @@ for (;;) { Set-Variable -Name Veyon -Value (NETSTAT -AN | Select-String "11100" 
     {
     Enable-NetFirewallRule -DisplayName VyAdvisorOUT
     Enable-NetFirewallRule -DisplayName VyAdvisorIN
-    powershell -WindowStyle hidden -Command "& {[System.Reflection.Assembly]::LoadWithPartialName('System.Windows.Forms'); [System.Windows.Forms.MessageBox]::Show('Conexión Veyon detectada y bloqueda','WARNING')}"
+    powershell -WindowStyle hidden -Command "& {[System.Reflection.Assembly]::LoadWithPartialName('System.Windows.Forms'); [System.Windows.Forms.MessageBox]::Show('Conexión Veyon detectada y bloqueda pulsa aceptar para desbloquearla','WARNING')}"
+    Remove-NetFirewallRule -DisplayName VyAdvisorOUT
+    Remove-NetFirewallRule -DisplayName VyAdvisorIN
     exit
     }
     }
