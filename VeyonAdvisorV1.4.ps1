@@ -22,15 +22,7 @@ Function Firewall {
                 exit }
             Read-Host -Prompt 'Presione Enter para salir'
             break }}
-echo "-------------------------------------------------------"
-echo "VeyonAdvisorV1.4"
-echo "-------------------------------------------------------"
-echo "-------------------------------------------------------"
-echo "Made by jorge.tar.gz"
-echo "IndustriasChan"
-echo "-------------------------------------------------------"        
-echo "industriaschan@gmail.com"
-echo "-------------------------------------------------------"
+Get-Content .\MadeBy.txt
 echo "Elige que servicios quieres monitorizar"
 echo "1. Veyon service"
 echo "2. VNC puertos 5800 y 5900"
