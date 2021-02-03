@@ -5,19 +5,27 @@ Es necesario ejecutar (Set-ExecutionPolicy -ExecutionPolicy Bypass) en powershel
 
 -Changelog:
 -
+
 -V1.2 
 -
+
 -La conexion se restable al pulsar aceptar
+
 -V1.3
 -
+
 -Añadido soporte para trafico VNC
 -Se muestra en pantalla que ip realizo la conexión
+
 -V1.4
 -
+
 -El mensaje de advertencia no pausa la ejecucion del script
 -Codigo simplificado mediante funciones
 -Posibilidad de dejar la conexion bloqueada, se ha de ejecutar el limpiador para desbloquearla
+
 -Comentarios
 -
+
 Si cierras el script una vez iniciado alguno de los 3 modos ejecuta el eliminador de reglas del firewall o elimina las reglas manualmente.
 Las conexiones VNC mal finalizadas se siguen detectando como conexiones establecidas durante un corto periodo de tiempo Se detectan falsos positivos con los puertos 5800* y 5900*
