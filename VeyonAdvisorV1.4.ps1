@@ -16,7 +16,8 @@ Function Firewall {
             Mostrar-MensajeAdvertencia
             $Opcion2 = Read-Host -Prompt '¿Quieres desbloquear la conexión? (Y)/n >'
             if ( $Opcion2 -ne "n" ) {
-                Remove-NetFirewallRule -DisplayName $Servicio 
+                Remove-NetFirewallRule -DisplayName Veyon 2>&1 > $null
+                Remove-NetFirewallRule -DisplayName VNC 2>&1 > $null
                 Read-Host -Prompt 'Presione Enter para salir'
                 exit }
             Read-Host -Prompt 'Presione Enter para salir'
