@@ -24,6 +24,11 @@ Es necesario ejecutar (Set-ExecutionPolicy -ExecutionPolicy Bypass) en powershel
 -Codigo simplificado mediante funciones
 -Posibilidad de dejar la conexion bloqueada, se ha de ejecutar el limpiador para desbloquearla
 
+-V1.5
+-
+-Añadida la opcion para monitorizar un puerto especifico. 
+-Añadida la opcion para guaradar logs.
+
 -Comentarios
 -
 
