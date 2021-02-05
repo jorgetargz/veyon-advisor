@@ -26,7 +26,7 @@ Es necesario ejecutar (Set-ExecutionPolicy -ExecutionPolicy Bypass) en powershel
 
 -V1.5
 -
--Añadida la opcion para monitorizar un puerto especifico. 
+-Añadida la opcion para monitorizar un puerto personalizado. 
 -Añadida la opcion para guaradar logs.
 
 -Comentarios
