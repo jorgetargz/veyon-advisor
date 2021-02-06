@@ -3,7 +3,7 @@ Pequeño script para detectar conexiones de monitorización Veyon y VNC. Play Fr
 
 Requiere privilegios de Administrador
 
-Es necesario ejecutar (Set-ExecutionPolicy -ExecutionPolicy Bypass) en powershell si la ejecucion del script devuelve error ocurrira si es la primera vez que se ejecuta un script en las version de Windows 10 Home 
+Es necesario ejecutar (Set-ExecutionPolicy -ExecutionPolicy Bypass) en powershell si la ejecucion del script devuelve error, ocurrira si es la primera vez que se ejecuta un script en las version de Windows 10 Home 
 
 -Changelog:
 -
