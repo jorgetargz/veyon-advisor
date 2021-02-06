@@ -31,6 +31,12 @@ V0.5-alpha
 -Añadida la opcion para monitorizar un puerto personalizado. 
 -Añadida la opcion para guaradar logs.
 
+V1.0-beta
+-
+-Bloquedos los puertos 5800? y 5900? antes de monitorizar VNC
+-Mejora estetica AsciiArt
+-Logs mejorados
+
 Comentarios
 -
 
