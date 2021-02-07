@@ -41,4 +41,4 @@ Comentarios
 -
 
 Si cierras el script una vez iniciado alguno de los 3 modos ejecuta el eliminador de reglas del firewall o elimina las reglas manualmente.
-Las conexiones VNC mal finalizadas se siguen detectando como conexiones establecidas durante un corto periodo de tiempo Se detectan falsos positivos con los puertos 5800* y 5900*
+Las conexiones VNC mal finalizadas se siguen detectando como conexiones establecidas (Con ThightVNC podemos evitar este problema desconectando todos los usuarios desde el icono de la barra de tareas) durante un corto periodo de tiempo Se detectan falsos positivos con los puertos 5800* y 5900* (Solucionado a la chavacano bloqueandolos previamente)
